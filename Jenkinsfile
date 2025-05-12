@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven 3.9.9' // Make sure this Maven is configured in Jenkins Global Tools
+        maven 'Maven 3.10.1' // Make sure this Maven is configured in Jenkins Global Tools
         jdk 'JDK 21'        // Same for JDK
     }
     
